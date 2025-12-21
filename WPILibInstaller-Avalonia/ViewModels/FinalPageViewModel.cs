@@ -74,18 +74,6 @@ namespace WPILibInstaller.ViewModels
             return Task.CompletedTask;
         }
 
-        public Task OpenBetaDocsFunc()
-        {
-            OpenBrowser("https://docs.wpilib.org/en/latest/docs/beta/beta-getting-started/welcome.html");
-            return Task.CompletedTask;
-        }
-
-        public Task OpenBetaSiteFunc()
-        {
-            OpenBrowser("https://github.com/wpilibsuite/2026Beta");
-            return Task.CompletedTask;
-        }
-
         public Task OpenChangelogFunc()
         {
             string? verString = null;
